@@ -1,12 +1,14 @@
 
 import Image from "next/image";
 
+
 export default function Accueil() {
     return (
       <>
+  
         <main>
           {/* 1ère section */}
-          <section className="bg-imageun w-full h-[200px] bg-cover bg-center relative flex flex-col justify-center items-start pl-8 pr-8 sm:h-[300px] lg:h-[400px] xl:h-[690px]">
+          <section className="bg-[url('/home.jpg')] w-full h-[200px] bg-cover bg-center relative flex flex-col justify-center items-start pl-8 pr-8 sm:h-[300px] lg:h-[400px] xl:h-[690px]">
             <h1 className="text-black text-2xl font-principale font-semibold text-left xl:text-6xl">
               Bienvenue sur BookMarket
             </h1>
