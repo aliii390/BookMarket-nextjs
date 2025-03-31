@@ -11,8 +11,8 @@ const Header: React.FC = () => {
   return (
     <>
       <header className="bg-[#FDEDD5] flex items-center p-3 justify-between gap-4 sm:justify-between sm:px-6 xl:justify-around">
-        <Image src="/logo.png" alt="Logo" width={128} height={50} priority />
-
+      <Image src="/logo.png" alt="Logo" width={128} height={50} priority />
+ 
         <input
           type="text"
           name="recherche"
